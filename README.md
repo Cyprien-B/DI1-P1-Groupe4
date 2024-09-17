@@ -58,6 +58,12 @@ Navigate to the Server project directory:
 ```bash
 cd Server
 ```
+Execute the folowing command to  to generate and apply the migrations that create the necessary tables. 
+
+```Bash
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
 
 Update the appsettings.json file if necessary (default configuration connects to PostgreSQL via localhost).
 
