@@ -58,7 +58,7 @@ Navigate to the Server project directory:
 ```bash
 cd Server
 ```
-Execute the folowing command to  to generate and apply the migrations that create the necessary tables. 
+Execute the following command to  to generate and apply the migrations that create the necessary tables. 
 
 ```Bash
 dotnet ef migrations add InitialCreate
